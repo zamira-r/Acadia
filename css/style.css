@@ -166,6 +166,24 @@ body{
   cursor: pointer;
 }
 
+/* styles for intro section */
+
+.intro{
+  padding: 2px 72px;
+  display: grid;
+  grid-template-columns: 4fr 6fr;
+}
+
+.intro-header{
+  text-transform: uppercase;
+  font-size: 32px;
+  margin-top: 16px;
+}
+
+.intro-text{
+  font-weight: lighter;
+  text-align: justify;
+}
 /* styles for blog section: ; */
 
 .blog{
@@ -219,4 +237,57 @@ body{
   font-weight: lighter;
   letter-spacing: 1px;
   text-align: justify;
+}
+
+/* styles for insta section */
+
+.insta{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.insta-item{
+  padding: 24px;
+}
+
+.insta-item-img{
+  width: 100%;
+}
+
+.insta-item-description{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 24px;
+}
+
+/* styles for footer */
+
+.footer-container{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  align-items: center;
+  border-top: 2px solid #000;
+  padding: 40px;
+}
+
+.footer-logo{
+  width: 140px;
+  margin-bottom: 40px;
+}
+
+.footer-copyright{
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
